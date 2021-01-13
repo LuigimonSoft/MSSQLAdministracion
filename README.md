@@ -6,3 +6,6 @@ tambien sirven para administrar bases de datos
 
 - ConsultasTiempos.sql  
   Muestra las consultas que toman mas tiempo en ejecutarse asi como lecturas y CPU y tambien muestra el plan de ejecucion para mejorar la consulta
+  
+- ConsultasBloqueadas.sql
+  Muestra objetos que se encuentren en interbloqueo  y quien los genera

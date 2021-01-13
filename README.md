@@ -1,5 +1,5 @@
 # MSSQLAdministracion
-Repositorio para almacenar consultas para ayudar a administrar y solucionar problemas que en MS SQL
+Repositorio para almacenar consultas para ayudar a administrar y solucionar problemas en MS SQL
 
 Estos son algunas de las consultas que me ayudan a mejorar el rendimiento de mi base de datos 
 tambien sirven para administrar bases de datos

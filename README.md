@@ -15,3 +15,6 @@ tambien sirven para administrar bases de datos
   
 - ReducirLog.sql
   Esta consulta nos ayudar a reducir el archivo log de nuestra base de datos (no olvidar hacer primero un respaldo)
+
+- FechaHoraZonaHorario.sql
+  Devuelve la hora exacta de una zona horario del mundo en este caso la zona central de México

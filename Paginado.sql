@@ -1,0 +1,1 @@
+SELECT * FROM Tabla order by TablaId offset 5 rows fetch next 12 rows only

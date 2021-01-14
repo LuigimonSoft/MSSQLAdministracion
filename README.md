@@ -9,3 +9,6 @@ tambien sirven para administrar bases de datos
   
 - ConsultasBloqueadas.sql
   Muestra objetos que se encuentren en interbloqueo  y quien los genera
+  
+- Paginado.sql
+  Es una consulta para realizar paginados de tablas

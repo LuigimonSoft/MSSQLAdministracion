@@ -1,0 +1,1 @@
+SELECT CONVERT(datetime, SYSDATETIMEOFFSET() AT TIME ZONE 'Central Standard Time (Mexico)')

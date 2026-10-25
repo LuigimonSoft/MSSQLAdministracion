@@ -205,7 +205,7 @@ JOIN sys.query_store_runtime_stats AS rs ON p.plan_id = rs.plan_id
 JOIN sys.query_store_runtime_stats_interval AS i
   ON rs.runtime_stats_interval_id = i.runtime_stats_interval_id
 WHERE q.object_id = @ObjectId
-  AND i.start_time >= DATEADD(HOUR, -@HoursBack, SYSUTCDATETIME())
+  AND i.end_time > DATEADD(HOUR, -@HoursBack, SYSUTCDATETIME())
   AND rs.execution_type = 0
 GROUP BY q.query_id, p.plan_id, i.start_time, i.end_time
 ORDER BY i.start_time DESC, AvgDurationMs DESC;

@@ -146,6 +146,8 @@ This query does not calculate effective permissions from role membership (includ
 
 System prompt in English for creating Azure SQL Stored Procedure Deep Analyzer, an expert agent for stored procedure diagnosis, optimization, security, maintenance and monitoring. Copy the complete file into the agent’s system instructions. The agent has no direct database connection: a human DBA executes the diagnostic queries and shares the results.
 
+When a stored procedure file is supplied at startup, the agent reads it and presents a preliminary static assessment before environment discovery and targeted diagnostic tests.
+
 Available languages: [English](Azure-SQL/Agents/StoredProcedureDBAAgent.md) · [Español](Azure-SQL/Agents/es/AgenteDBAStoredProcedure.md) · [Français](Azure-SQL/Agents/fr/AgentDBAProcedureStockee.md)
 
 [Platform-specific profiles for GitHub Copilot, Codex and Claude Code, with installation instructions in three languages](Azure-SQL/Agents/Integrations/README.md).

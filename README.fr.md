@@ -144,6 +144,8 @@ Ne calcule pas les autorisations effectives issues des appartenances aux rôles,
 
 Prompt en français pour créer Azure SQL Stored Procedure Deep Analyzer, un agent expert en diagnostic, optimisation, sécurité, maintenance et surveillance des procédures stockées. Copier le contenu complet du fichier dans les instructions système de l’agent. L’agent ne dispose pas de connexion directe à la base : un DBA humain exécute les requêtes de diagnostic et partage les résultats.
 
+Lorsqu’un fichier de procédure est fourni au démarrage, l’agent le lit et présente une évaluation statique préliminaire avant la découverte de l’environnement et les tests diagnostiques ciblés.
+
 Langues disponibles: [English](Azure-SQL/Agents/StoredProcedureDBAAgent.md) · [Español](Azure-SQL/Agents/es/AgenteDBAStoredProcedure.md) · [Français](Azure-SQL/Agents/fr/AgentDBAProcedureStockee.md)
 
 [Profils spécifiques pour GitHub Copilot, Codex et Claude Code, avec instructions d’installation en trois langues](Azure-SQL/Agents/Integrations/README.fr.md).
